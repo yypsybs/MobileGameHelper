@@ -1,0 +1,17 @@
+# --------------------
+# Define argument group of tasks.
+# --------------------
+
+# ==================== Alas ====================
+
+Alas:
+  menu: 'list'
+  page: 'setting'
+  tasks:
+    Alas:
+      - Emulator
+      - EmulatorInfo
+      - Error
+      - Optimization
+    Restart:
+      - Scheduler
