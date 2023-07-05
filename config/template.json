@@ -38,6 +38,9 @@
       "NextRun": "2020-01-01 00:00:00",
       "Command": "JumpTo",
       "ServerUpdate": "04:00"
+    },
+    "Config": {
+      "Name": "test"
     }
   }
 }

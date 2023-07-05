@@ -167,6 +167,12 @@
         "value": "04:00",
         "display": "hide"
       }
+    },
+    "Config": {
+      "Name": {
+        "type": "input",
+        "value": "Config_Name"
+      }
     }
   }
 }
