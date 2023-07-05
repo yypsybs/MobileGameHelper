@@ -17,7 +17,7 @@ class GeneratedConfig:
 
     # Group `Emulator`
     Emulator_Serial = 'auto'
-    Emulator_PackageName = 'auto'  # auto
+    Emulator_PackageName = 'auto'  # auto, com.YostarJP.BlueArchive, com.hypergryph.arknights, com.hypergryph.arknights.bilibili, com.bilibili.priconne
     Emulator_ScreenshotMethod = 'auto'  # auto, ADB, ADB_nc, uiautomator2, aScreenCap, aScreenCap_nc, DroidCast, DroidCast_raw, scrcpy
     Emulator_ControlMethod = 'MaaTouch'  # minitouch, MaaTouch
     Emulator_AdbRestart = False
@@ -37,3 +37,6 @@ class GeneratedConfig:
     Optimization_ScreenshotInterval = 0.3
     Optimization_CombatScreenshotInterval = 1.0
     Optimization_WhenTaskQueueEmpty = 'goto_main'  # stay_there, goto_main, close_game
+
+    # Group `JumpTo`
+    JumpTo_ConfigName = 'null'

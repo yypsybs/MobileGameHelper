@@ -10,7 +10,11 @@
         "type": "select",
         "value": "auto",
         "option": [
-          "auto"
+          "auto",
+          "com.YostarJP.BlueArchive",
+          "com.hypergryph.arknights",
+          "com.hypergryph.arknights.bilibili",
+          "com.bilibili.priconne"
         ]
       },
       "ScreenshotMethod": {
@@ -133,6 +137,29 @@
       "Command": {
         "type": "input",
         "value": "Restart",
+        "display": "hide"
+      },
+      "ServerUpdate": {
+        "type": "input",
+        "value": "04:00",
+        "display": "hide"
+      }
+    }
+  },
+  "JumpTo": {
+    "Scheduler": {
+      "Enable": {
+        "type": "checkbox",
+        "value": false
+      },
+      "NextRun": {
+        "type": "datetime",
+        "value": "2020-01-01 00:00:00",
+        "validate": "datetime"
+      },
+      "Command": {
+        "type": "input",
+        "value": "JumpTo",
         "display": "hide"
       },
       "ServerUpdate": {

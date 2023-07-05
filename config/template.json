@@ -31,5 +31,13 @@
       "Command": "Restart",
       "ServerUpdate": "04:00"
     }
+  },
+  "JumpTo": {
+    "Scheduler": {
+      "Enable": false,
+      "NextRun": "2020-01-01 00:00:00",
+      "Command": "JumpTo",
+      "ServerUpdate": "04:00"
+    }
   }
 }

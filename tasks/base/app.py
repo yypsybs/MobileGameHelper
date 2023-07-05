@@ -2,10 +2,7 @@ from module.logger import logger
 from tasks.base.ui import UI
 
 
-class Login(UI):
-
-    def handle_app_login(self):
-        pass
+class App(UI):
 
     def app_stop(self):
         logger.hr('App stop')
@@ -14,11 +11,9 @@ class Login(UI):
     def app_start(self):
         logger.hr('App start')
         self.device.app_start()
-        self.handle_app_login()
 
     def app_restart(self):
         logger.hr('App restart')
         self.device.app_stop()
         self.device.app_start()
-        self.handle_app_login()
         self.config.task_delay(server_update=True)

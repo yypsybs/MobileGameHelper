@@ -6,8 +6,12 @@ server = 'cn'  # Setting default to cn, will avoid errors when using dev_tools
 
 VALID_SERVER = ['cn', ]
 VALID_PACKAGE = {
+    'com.YostarJP.BlueArchive': 'jp',
+    'com.hypergryph.arknights': 'cn',
 }
 VALID_CHANNEL_PACKAGE = {
+    'com.hypergryph.arknights.bilibili': ('cn', 'Bilibili'),
+    'com.bilibili.priconne': ('cn', 'Bilibili'),
 }
 
 

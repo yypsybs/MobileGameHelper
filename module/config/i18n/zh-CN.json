@@ -13,6 +13,10 @@
     "Restart": {
       "name": "异常处理",
       "help": ""
+    },
+    "JumpTo": {
+      "name": "Task.JumpTo.name",
+      "help": "Task.JumpTo.help"
     }
   },
   "Scheduler": {
@@ -49,7 +53,11 @@
     "PackageName": {
       "name": "游戏服务器",
       "help": "模拟器上装有多个游戏客户端时，需要手动选择服务器",
-      "auto": "自动检测"
+      "auto": "自动检测",
+      "com.YostarJP.BlueArchive": "碧蓝档案日服",
+      "com.hypergryph.arknights": "明日方舟国服官服",
+      "com.hypergryph.arknights.bilibili": "明日方舟国服官服 Bilibili渠道服 com.hypergryph.arknights.bilibili",
+      "com.bilibili.priconne": "明日方舟国服官服 Bilibili渠道服 com.bilibili.priconne"
     },
     "ScreenshotMethod": {
       "name": "模拟器截图方案",
@@ -150,6 +158,16 @@
       "stay_there": "停在原处",
       "goto_main": "前往主界面",
       "close_game": "关闭游戏"
+    }
+  },
+  "JumpTo": {
+    "_info": {
+      "name": "JumpTo._info.name",
+      "help": "JumpTo._info.help"
+    },
+    "ConfigName": {
+      "name": "JumpTo.ConfigName.name",
+      "help": "JumpTo.ConfigName.help"
     }
   },
   "Gui": {
