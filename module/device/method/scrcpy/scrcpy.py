@@ -128,6 +128,10 @@ class Scrcpy(ScrcpyCore, Uiautomator2):
             self._scrcpy_control.touch(*p2, const.ACTION_UP)
             self.sleep(0.05)
 
+    def swipe_multipoint_minitouch(self, point_list, duration_list):
+        logger.error("swipe_multipoint is not supported in scrcpy")
+        raise RequestHumanTakeover
+
     @retry
     def drag_scrcpy(self, p1, p2, point_random=(-10, -10, 10, 10)):
         self.scrcpy_ensure_running()

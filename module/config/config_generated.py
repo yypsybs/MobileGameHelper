@@ -17,7 +17,7 @@ class GeneratedConfig:
 
     # Group `Emulator`
     Emulator_Serial = 'auto'
-    Emulator_PackageName = 'auto'  # auto, com.YostarJP.BlueArchive, com.hypergryph.arknights, com.hypergryph.arknights.bilibili, com.bilibili.priconne
+    Emulator_PackageName = 'auto'  # auto, com.YostarJP.BlueArchive, com.hypergryph.arknights, com.hypergryph.arknights.bilibili, com.bilibili.priconne, com.bilibili.star.bili
     Emulator_ScreenshotMethod = 'auto'  # auto, ADB, ADB_nc, uiautomator2, aScreenCap, aScreenCap_nc, DroidCast, DroidCast_raw, scrcpy
     Emulator_ControlMethod = 'MaaTouch'  # minitouch, MaaTouch
     Emulator_AdbRestart = False

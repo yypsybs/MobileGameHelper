@@ -258,14 +258,14 @@ class ConfigGenerator:
             path = ['Emulator', 'PackageName', package]
             if deep_get(new, keys=path) == package:
                 deep_set(new, keys=path, value=server.upper())
-        for package, server_and_channel in VALID_CHANNEL_PACKAGE.items():
-            server, channel = server_and_channel
-            name = deep_get(new, keys=['Emulator', 'PackageName', to_package(server)])
-            if lang == SERVER_TO_LANG[server]:
-                value = f'{name} {channel}渠道服 {package}'
-            else:
-                value = f'{name} {package}'
-            deep_set(new, keys=['Emulator', 'PackageName', package], value=value)
+        # for package, server_and_channel in VALID_CHANNEL_PACKAGE.items():
+        #     server, channel = server_and_channel
+        #     name = deep_get(new, keys=['Emulator', 'PackageName', to_package(server)])
+        #     if lang == SERVER_TO_LANG[server]:
+        #         value = f'{name} {channel}渠道服 {package}'
+        #     else:
+        #         value = f'{name} {package}'
+        #     deep_set(new, keys=['Emulator', 'PackageName', package], value=value)
         # Game server names
         # for server, _list in VALID_SERVER_LIST.items():
         #     for index in range(len(_list)):

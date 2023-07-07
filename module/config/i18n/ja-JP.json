@@ -14,9 +14,9 @@
       "name": "再起動設定",
       "help": ""
     },
-    "JumpTo": {
-      "name": "Task.JumpTo.name",
-      "help": "Task.JumpTo.help"
+    "DailyQuest": {
+      "name": "Task.DailyQuest.name",
+      "help": "Task.DailyQuest.help"
     }
   },
   "Scheduler": {
@@ -57,7 +57,8 @@
       "com.YostarJP.BlueArchive": "JP",
       "com.hypergryph.arknights": "CN",
       "com.hypergryph.arknights.bilibili": "CN com.hypergryph.arknights.bilibili",
-      "com.bilibili.priconne": "CN com.bilibili.priconne"
+      "com.bilibili.priconne": "CN com.bilibili.priconne",
+      "com.bilibili.star.bili": "CN com.bilibili.star.bili"
     },
     "ScreenshotMethod": {
       "name": "Emulator.ScreenshotMethod.name",

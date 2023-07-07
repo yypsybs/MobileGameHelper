@@ -212,6 +212,10 @@ class MaaTouch(Connection):
         builder.up().commit()
         self.maatouch_send()
 
+    def swipe_multipoint_maatouch(self, point_list, duration_list):
+        logger.error("swipe_multipoint is not supported in maatouch")
+        raise RequestHumanTakeover
+
     @retry
     def drag_maatouch(self, p1, p2, point_random=(-10, -10, 10, 10)):
         p1 = np.array(p1) - random_rectangle_point(point_random)

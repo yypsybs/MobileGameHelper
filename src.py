@@ -13,6 +13,10 @@ class AlasImplement(AzurLaneAutoScript):
     def goto_main(self):
         pass
 
+    def daily_quest(self):
+        from tasks.bang.bang import Bang
+        Bang(self.config, device=self.device).run()
+
 
 if __name__ == '__main__':
     src = AlasImplement('alas')

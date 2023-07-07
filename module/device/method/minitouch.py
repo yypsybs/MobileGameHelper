@@ -547,6 +547,10 @@ class Minitouch(Connection):
         builder.up().commit()
         self.minitouch_send()
 
+    def swipe_multipoint_minitouch(self, point_list, duration_list):
+        logger.error("swipe_multipoint is not supported in minitouch")
+        raise RequestHumanTakeover
+
     @retry
     def drag_minitouch(self, p1, p2, point_random=(-10, -10, 10, 10)):
         p1 = np.array(p1) - random_rectangle_point(point_random)
