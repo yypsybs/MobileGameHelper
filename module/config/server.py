@@ -12,6 +12,7 @@ VALID_PACKAGE = {
 VALID_CHANNEL_PACKAGE = {
     'com.hypergryph.arknights.bilibili': ('cn', 'Bilibili'),
     'com.bilibili.priconne': ('cn', 'Bilibili'),
+    'com.bilibili.star.bili': ('cn', 'Bilibili'),
 }
 
 

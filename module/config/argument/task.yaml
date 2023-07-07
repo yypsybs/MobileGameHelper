@@ -15,5 +15,11 @@ Alas:
       - Optimization
     Restart:
       - Scheduler
-    JumpTo:
+
+Daily:
+  menu: 'list'
+  page: 'setting'
+  tasks:
+    DailyQuest:
       - Scheduler
+

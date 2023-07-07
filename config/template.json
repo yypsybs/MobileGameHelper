@@ -32,15 +32,12 @@
       "ServerUpdate": "04:00"
     }
   },
-  "JumpTo": {
+  "DailyQuest": {
     "Scheduler": {
       "Enable": false,
       "NextRun": "2020-01-01 00:00:00",
-      "Command": "JumpTo",
+      "Command": "DailyQuest",
       "ServerUpdate": "04:00"
-    },
-    "Config": {
-      "Name": "test"
     }
   }
 }

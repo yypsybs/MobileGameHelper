@@ -14,7 +14,8 @@
           "com.YostarJP.BlueArchive",
           "com.hypergryph.arknights",
           "com.hypergryph.arknights.bilibili",
-          "com.bilibili.priconne"
+          "com.bilibili.priconne",
+          "com.bilibili.star.bili"
         ]
       },
       "ScreenshotMethod": {
@@ -146,7 +147,7 @@
       }
     }
   },
-  "JumpTo": {
+  "DailyQuest": {
     "Scheduler": {
       "Enable": {
         "type": "checkbox",
@@ -159,19 +160,13 @@
       },
       "Command": {
         "type": "input",
-        "value": "JumpTo",
+        "value": "DailyQuest",
         "display": "hide"
       },
       "ServerUpdate": {
         "type": "input",
         "value": "04:00",
         "display": "hide"
-      }
-    },
-    "Config": {
-      "Name": {
-        "type": "input",
-        "value": "Config_Name"
       }
     }
   }

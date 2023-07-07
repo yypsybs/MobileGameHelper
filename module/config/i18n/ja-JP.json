@@ -3,6 +3,10 @@
     "Alas": {
       "name": "Menu.Alas.name",
       "help": "Menu.Alas.help"
+    },
+    "Daily": {
+      "name": "Menu.Daily.name",
+      "help": "Menu.Daily.help"
     }
   },
   "Task": {
@@ -58,7 +62,7 @@
       "com.hypergryph.arknights": "CN",
       "com.hypergryph.arknights.bilibili": "CN com.hypergryph.arknights.bilibili",
       "com.bilibili.priconne": "CN com.bilibili.priconne",
-      "com.bilibili.star.bili": "CN com.bilibili.star.bili"
+      "com.bilibili.star.bili": "com.bilibili.star.bili"
     },
     "ScreenshotMethod": {
       "name": "Emulator.ScreenshotMethod.name",
@@ -159,16 +163,6 @@
       "stay_there": "stay_there",
       "goto_main": "goto_main",
       "close_game": "close_game"
-    }
-  },
-  "JumpTo": {
-    "_info": {
-      "name": "JumpTo._info.name",
-      "help": "JumpTo._info.help"
-    },
-    "ConfigName": {
-      "name": "JumpTo.ConfigName.name",
-      "help": "JumpTo.ConfigName.help"
     }
   },
   "Gui": {

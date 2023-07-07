@@ -4,8 +4,14 @@
     "page": "setting",
     "tasks": [
       "Alas",
-      "Restart",
-      "JumpTo"
+      "Restart"
+    ]
+  },
+  "Daily": {
+    "menu": "list",
+    "page": "setting",
+    "tasks": [
+      "DailyQuest"
     ]
   }
 }

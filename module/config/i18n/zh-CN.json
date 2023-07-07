@@ -3,6 +3,10 @@
     "Alas": {
       "name": "SRC",
       "help": ""
+    },
+    "Daily": {
+      "name": "日常",
+      "help": ""
     }
   },
   "Task": {
