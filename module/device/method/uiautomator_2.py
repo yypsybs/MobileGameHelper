@@ -140,6 +140,9 @@ class Uiautomator2(Connection):
     def swipe_uiautomator2(self, p1, p2, duration=0.1):
         self.u2.swipe(*p1, *p2, duration=duration)
 
+    def swipe_uiautomator2_ex(self, way_points=None, durations=None):
+        pass
+
     def swipe_multipoint_uiautomator2(self, point_list, duration_list):
         logger.error("swipe_multipoint is not supported in uiautomator2")
         raise RequestHumanTakeover

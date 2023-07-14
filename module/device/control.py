@@ -117,6 +117,20 @@ class Control(Hermit, Minitouch, Scrcpy, MaaTouch):
         else:
             self.swipe_adb(p1, p2, duration=duration)
 
+    def swipe_ex(self, way_points, durations, name='SWIPE'):
+        self.handle_control_check(name)
+        method = self.config.Emulator_ControlMethod
+        if method == 'minitouch':
+            self.swipe_minitouch_ex(way_points, durations)
+        elif method == 'uiautomator2':
+            self.swipe_uiautomator2_ex(way_points, durations)
+        elif method == 'scrcpy':
+            self.swipe_scrcpy_ex(way_points, durations)
+        elif method == 'MaaTouch':
+            self.swipe_maatouch_ex(way_points, durations)
+        else:
+            self.swipe_adb_ex(way_points, durations)
+
     def swipe_vector(self, vector, box=(123, 159, 1175, 628), random_range=(0, 0, 0, 0), padding=15,
                      duration=(0.1, 0.2), whitelist_area=None, blacklist_area=None, name='SWIPE', distance_check=True):
         """Method to swipe.

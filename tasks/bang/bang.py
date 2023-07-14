@@ -6,6 +6,6 @@ class Bang(ModuleBase):
 
     def run(self):
         logger.info('Bang start')
-        # self.device.swipe_vector()
+        self.device.swipe_ex(way_points=[], durations=[])
         logger.info('Bang end')
         self.config.task_delay(server_update=True)

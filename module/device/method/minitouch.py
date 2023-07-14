@@ -571,3 +571,9 @@ class Minitouch(Connection):
 
         builder.up().commit()
         self.minitouch_send()
+
+    def swipe_minitouch_ex(self, way_points=None, durations=None):
+        if not way_points or not durations:
+            return
+        builder = self.minitouch_builder
+

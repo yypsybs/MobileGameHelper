@@ -186,6 +186,9 @@ class Adb(Connection):
         duration = int(duration * 1000)
         self.adb_shell(['input', 'swipe', *p1, *p2, duration])
 
+    def swipe_adb_ex(self, way_points=None, durations=None):
+        pass
+
     @retry
     def app_current_adb(self):
         """

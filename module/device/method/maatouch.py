@@ -212,6 +212,9 @@ class MaaTouch(Connection):
         builder.up().commit()
         self.maatouch_send()
 
+    def swipe_maatouch_ex(self, way_points=None, durations=None):
+        pass
+
     def swipe_multipoint_maatouch(self, point_list, duration_list):
         logger.error("swipe_multipoint is not supported in maatouch")
         raise RequestHumanTakeover
